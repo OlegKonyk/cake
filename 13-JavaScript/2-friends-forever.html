@@ -1,0 +1,26 @@
+<button id="btn-0">Button 1</button>
+<button id="btn-1">Button 2</button>
+<button id="btn-2">Button 3</button>
+
+<script type="text/javascript">
+  const prizes = ['A Unicorn!', 'A Hug!', 'Fresh Laundry!'];
+  // OLD: var btnNum is same for all event handles; it has value of 3 which makes text undefuned
+  // for (var btnNum = 0; btnNum < prizes.length; btnNum++) { 
+  for (let btnNum = 0; btnNum < prizes.length; btnNum++) {
+  // NEW: using let makes it new variable for each itteration; another option to use IIFE
+    document.getElementById(`btn-${btnNum}`).onclick = () => {
+      // Tell her what she's won!
+      alert(prizes[btnNum]);
+    };
+  }
+</script>
+
+
+
+<!-- 
+We're building a web game where everybody wins and we are all friends forever.
+It's simple—you click on one of three boxes to see what nice thing you've won. 
+You always win something nice. Because we love you.
+
+Here's what we have so far. Something's going wrong though. Can you tell what it is? 
+-->
