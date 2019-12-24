@@ -1,6 +1,6 @@
 #### Interview preparation playground (https://www.interviewcake.com) 
 
-Run tests wirth mocha and chai:
+Run tests with mocha and chai:
 
 ```nvm use```
 
