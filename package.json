@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/OlegKonyk/cake#readme",
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0"
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
   }
 }
